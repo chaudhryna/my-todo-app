@@ -25,3 +25,4 @@ for index, todo in enumerate(todos):
         st.rerun()
 
 st.text_input(label="Enter a new todo:", placeholder="Todo....", on_change=add_todo, key="new_todo")
+
